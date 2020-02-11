@@ -1,0 +1,46 @@
+h1{
+  font-family: Calibri;
+  font-size: 25pt;
+  font-style: normal;
+  font-weight: bold;
+  color:green;
+  text-align: center;
+  text-decoration: underline
+}
+
+table{
+  font-family: Calibri;
+  color:white;
+  font-size: 11pt;
+  font-style: normal;
+  font-weight: bold;
+  background-color:#7b68ee;
+  border-collapse: collapse;
+  border: 2px solid navy
+}
+table.inner {
+  border: 0px
+}
+title {
+  color:green;
+}
+body {
+  background-color:#dcdcdc;
+}
+#Healthcare {
+  position:relative;
+  top:30px;
+  margin: auto;
+  animation-name: Health;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes Health {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: 100%;
+  }
+}
